@@ -16,8 +16,8 @@ This script provides an organized project structure to streamline machine learni
 
 Generated Project Structure
 The script creates the following file structure:
-'''
-project_name/
+
+''' project_name/
 │
 ├── .github/
 │   └── workflows/
@@ -65,8 +65,7 @@ project_name/
 ├── setup.py                          # Project setup script
 ├── setup.cfg                         # Configuration for setup
 ├── pyproject.toml                    # Project metadata and configuration
-└── tox.ini                           # Tox configuration for testing
-'''
+└── tox.ini                           # Tox configuration for testing '''
 
 Each file serves a specific purpose in the project:
 
@@ -80,4 +79,3 @@ Each file serves a specific purpose in the project:
 
 License
 This project is licensed under the MIT License.
-
