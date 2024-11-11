@@ -16,6 +16,7 @@ This script provides an organized project structure to streamline machine learni
 
 Generated Project Structure
 The script creates the following file structure:
+'''
 project_name/
 │
 ├── .github/
@@ -65,16 +66,17 @@ project_name/
 ├── setup.cfg                         # Configuration for setup
 ├── pyproject.toml                    # Project metadata and configuration
 └── tox.ini                           # Tox configuration for testing
+'''
 
 Each file serves a specific purpose in the project:
 
-src/components: Contains modules for handling different stages of data and model processing.
-src/pipeline: Scripts to define the flow for training and predicting.
-src/utils: Helper functions for common tasks.
-src/logger and src/exception: Custom logging and error handling modules.
-tests: Unit and integration tests to validate components.
-experiment: Jupyter notebook for conducting experiments and exploratory analysis.
-setup and configuration files (setup.py, pyproject.toml, tox.ini): Essential for project setup, configuration, and dependency management.
+* src/components: Contains modules for handling different stages of data and model processing.
+* src/pipeline: Scripts to define the flow for training and predicting.
+* src/utils: Helper functions for common tasks.
+* src/logger and src/exception: Custom logging and error handling modules.
+* tests: Unit and integration tests to validate components.
+* experiment: Jupyter notebook for conducting experiments and exploratory analysis.
+* setup and configuration files (setup.py, pyproject.toml, tox.ini): Essential for project setup, * * configuration, and dependency management.
 
 License
 This project is licensed under the MIT License.
